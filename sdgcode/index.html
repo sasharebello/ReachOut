@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets\reachoutlogo2.jpeg" alt="ReachOutLogo" class="nav-logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <img src="assets\menu_black_36dp.svg" alt="Menu icon">
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section">ABOUT</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#chat_section">CHAT</a>
+          </li>
+          <li class="nav-item">
+              <button type="button" class="nav-link login-btn" name="Login" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                REGISTER
+              </button>
+          </li>
+          <li class="nav-item">
+              <button type="button" class="nav-link login-btn" name="sign-in" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                LOGIN
+              </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets\main1.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\main2.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\main3.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\main4.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\main5.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- DESCRIPTION -->
+  <div class="container-fluid description-container">
+    <div class="row">
+      <div class="col">
+          <img src="assets\prototype.png" alt="">
+      </div>
+      
+      <div class="col description-col">
+          <h1>Chat With Your Therapist</h1>
+          <p class="description">Message your therapist anytime from anywhere, no scheduling needed.
+You can also schedule a live session at a time that's convenient for you, and connect from your phone, tablet, or computer.
+Talk to your therapist however you feel comfortable, we are here to help you.</p>
+      </div>
+    </div>
+  </div>
+
+    
+<div class="container-fluid description-container">
+    <div class="row">
+      <div class="col features">
+        <img src="assets\advantage 1.png" alt="" class="advantage">
+        <p>Have a one-on-one conversation with professional, licensed, and vetted therapists that you can trust.
+</p>
+      </div>
+    
+      <div class="col features">
+        <img src="assets\advantage 2.png" alt="" class="advantage">
+        <p>We can help you with a range of issues including depression, anxiety, relationships, trauma, grief, and more.</p>
+      </div>
+
+      <div class="col features">
+        <img src="assets\advantage 3.png" alt="" class="advantage">
+        <p id="about-section">You can keep track of your progress, moods, appointments and much more with your therapist. 
+</div>
+    </div>
+    </div>
+  </div>
+
+
+    <!-- ABOUT US -->
+    <div class="container-fluid about-us-container">
+      <div class="row about-text-container">
+        <h1>ABOUT US</h1>
+      </div>
+      <div class="row about-text-container" id="faq-section">
+        <p class="about-us-text">
+Our Mission
+Making professional counseling accessible, affordable, convenient - so anyone who struggles with life’s challenges can get help, anytime, anywhere.
+Our Team
+We are passionate and compassionate professionals, driven by the mission of helping more people live a better and happier life every day. We are growing fast and always looking for new talent. If you love people and like challenges - come and join us!
+</p>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="container-fluid general-container">
+      <div class="row about-text-container">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+      </div>
+
+      <div class="row accordion-container">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               What is ReachOut?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">ReachOut is an online counseling platform. We change the way people get help with facing life's challenges by providing convenient, discreet and affordable access to a licensed therapist. ReachOut makes professional counseling available anytime, anywhere, through a computer, tablet or smartphone
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How is my privacy protected?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">ReachOut is an online counseling platform. We change the way people get help with facing life's challenges by providing convenient, discreet and affordable access to a licensed therapist. ReachOut makes professional counseling available anytime, anywhere, through a computer, tablet or smartphone
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                How does the live chat session work?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">ReachOut is an online counseling platform. We change the way people get help with facing life's challenges by providing convenient, discreet and affordable access to a licensed therapist. ReachOut makes professional counseling available anytime, anywhere, through a computer, tablet or smartphone
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Who will be helping me?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">ReachOut is an online counseling platform. We change the way people get help with facing life's challenges by providing convenient, discreet and affordable access to a licensed therapist. ReachOut makes professional counseling available anytime, anywhere, through a computer, tablet or smartphone
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGN IN -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container login-container">
+              <form class="login-form" method="POST" action="app.html">
+                <div class="mb-3">
+                  <label for="username" class="form-label">Username</label>
+                  <input type="username" name="username" class="form-control" id="username" aria-describedby="username">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" name="password" class="form-control" id="password">
+                </div>
+                <button type="sign-in" name="sign-in" class="btn btn-primary btn-login">Sign In</button>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+<footer>
+  <img src="assets\logo-white.png" alt="" class="footer-logo">
+  <div class="row footer-container">
+    <p class="footer-text">Our office is located in the heart of Silicon Valley, where world-changing technologies are being created. We are proud neighbours of iconic companies like Google, Apple, and Facebook.</p>
+  </div>
+
+</footer>
+
+</html>
